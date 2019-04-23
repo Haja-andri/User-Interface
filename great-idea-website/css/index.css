@@ -137,6 +137,10 @@ h1{
 	margin: 20px;
 }
 
+.addressBox p{
+	color: gray;
+}
+
 .copyright{
 	display: block;
 	text-align: center;

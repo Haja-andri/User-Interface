@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 section{
 	margin-top: 20px;
 }
+
 .container{
 	width: 90%;
 	margin: 0 auto;
@@ -139,4 +140,8 @@ h1{
 .copyright{
 	display: block;
 	text-align: center;
+}
+
+.withBorder{
+	border-top: 1px solid gray; 
 }

@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+section{
+	margin-top: 20px;
+}
 .container{
 	width: 90%;
 	margin: 0 auto;
@@ -72,6 +75,7 @@ h1, h2, h3, h4, h5 {
 .menuItem {
 	display: inline-block;
 	padding: 20px;
+	color: gray;
 }
 
 h1{
@@ -84,13 +88,15 @@ h1{
 }
 
 .logo{
-	display: inline-block;	
+	display: inline-block;
+	margin: 20px;	
 }
 
 
 .introLeft{
 	display: inline-block;
 	width: 45%;
+	margin-top: 10%;
 	vertical-align: top;
 	text-align: center;
 	height: auto;
@@ -128,4 +134,9 @@ h1{
 
 .addressBox{
 	margin: 20px;
+}
+
+.copyright{
+	display: block;
+	text-align: center;
 }

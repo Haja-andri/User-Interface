@@ -58,9 +58,94 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Merriweather', serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+section{
+	margin-top: 20px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.menuItem {
+	display: inline-block;
+	padding: 20px;
+	color: gray;
+}
+
+h1{
+	font-size: 50px;
+}
+
+.menubar{
+	display: inline-block;
+	width: 80%;
+}
+
+.logo{
+	display: inline-block;
+	margin: 20px;	
+}
+
+
+.introLeft{
+	display: inline-block;
+	width: 45%;
+	margin-top: 10%;
+	vertical-align: top;
+	text-align: center;
+	height: auto;
+}
+
+.introRight{
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.cat{
+	border: 1px solid black;
+	width: 200px;
+	padding: 10px;
+}
+
+.halfBox{
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+}
+
+.fullBox{
+	display: block;
+	margin: 20px;
+	text-align: center;
+}
+
+.oneThirdBox{
+	display: inline-block;
+	width: 30%;
+	margin: 20px;
+}
+
+.addressBox{
+	margin: 20px;
+}
+
+.addressBox p{
+	color: gray;
+}
+
+.copyright{
+	display: block;
+	text-align: center;
+}
+
+.withBorder{
+	border-top: 1px solid gray; 
+}

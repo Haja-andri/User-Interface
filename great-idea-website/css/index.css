@@ -97,8 +97,7 @@ h1{
 .introLeft{
 	display: inline-block;
 	width: 45%;
-	margin-top: 10%;
-	vertical-align: top;
+	vertical-align: middle;
 	text-align: center;
 	height: auto;
 }
@@ -106,6 +105,7 @@ h1{
 .introRight{
 	display: inline-block;
 	width: 45%;
+	vertical-align: middle;
 	text-align: center;
 }
 
